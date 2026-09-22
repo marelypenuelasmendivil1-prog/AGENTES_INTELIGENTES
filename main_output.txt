@@ -1,0 +1,1854 @@
+____________________
+ESCENARIO 1
+____________________
+TABLERO INICIAL
+. . . P . 
+. X . . . 
+A . . X P 
+. . P . . 
+. X . . . 
+
+Accion: 1
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': 'FUERA', 'derecha': '.'}
+Decision: ARRIBA
+Tablero:
+. . . P . 
+A X . . . 
+. . . X P 
+. . P . . 
+. X . . . 
+
+Puntuacion: -1
+--------------------------
+Accion: 2
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': 'FUERA', 'derecha': 'X'}
+Decision: ARRIBA
+Tablero:
+A . . P . 
+. X . . . 
+. . . X P 
+. . P . . 
+. X . . . 
+
+Puntuacion: -2
+--------------------------
+Accion: 3
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': 'FUERA', 'derecha': '.'}
+Decision: DERECHA
+Tablero:
+. A . P . 
+. X . . . 
+. . . X P 
+. . P . . 
+. X . . . 
+
+Puntuacion: -3
+--------------------------
+Accion: 4
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': 'X', 'izquierda': '.', 'derecha': '.'}
+Decision: DERECHA
+Tablero:
+. . A P . 
+. X . . . 
+. . . X P 
+. . P . . 
+. X . . . 
+
+Puntuacion: -4
+--------------------------
+Accion: 5
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'P'}
+Decision: DERECHA
+Tablero:
+. . . A . 
+. X . . . 
+. . . X P 
+. . P . . 
+. X . . . 
+
+Puntuacion: -5
+--------------------------
+Accion: 6
+Percepcion: {'actual': 'P', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': '.'}
+Decision: RECOGER
+Tablero:
+. . . A . 
+. X . . . 
+. . . X P 
+. . P . . 
+. X . . . 
+
+Puntuacion: 5
+--------------------------
+Accion: 7
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': '.'}
+Decision: DERECHA
+Tablero:
+. . . . A 
+. X . . . 
+. . . X P 
+. . P . . 
+. X . . . 
+
+Puntuacion: 4
+--------------------------
+Accion: 8
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+. . . . . 
+. X . . A 
+. . . X P 
+. . P . . 
+. X . . . 
+
+Puntuacion: 3
+--------------------------
+Accion: 9
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': 'P', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+. . . . . 
+. X . . . 
+. . . X A 
+. . P . . 
+. X . . . 
+
+Puntuacion: 2
+--------------------------
+Accion: 10
+Percepcion: {'actual': 'P', 'arriba': '.', 'abajo': '.', 'izquierda': 'X', 'derecha': 'FUERA'}
+Decision: RECOGER
+Tablero:
+. . . . . 
+. X . . . 
+. . . X A 
+. . P . . 
+. X . . . 
+
+Puntuacion: 12
+--------------------------
+Accion: 11
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': 'X', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+. . . . . 
+. X . . A 
+. . . X . 
+. . P . . 
+. X . . . 
+
+Puntuacion: 11
+--------------------------
+Accion: 12
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+. . . . A 
+. X . . . 
+. . . X . 
+. . P . . 
+. X . . . 
+
+Puntuacion: 10
+--------------------------
+Accion: 13
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+. . . . . 
+. X . . A 
+. . . X . 
+. . P . . 
+. X . . . 
+
+Puntuacion: 9
+--------------------------
+Accion: 14
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+. . . . A 
+. X . . . 
+. . . X . 
+. . P . . 
+. X . . . 
+
+Puntuacion: 8
+--------------------------
+Accion: 15
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+. . . . . 
+. X . . A 
+. . . X . 
+. . P . . 
+. X . . . 
+
+Puntuacion: 7
+--------------------------
+Accion: 16
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+. . . . A 
+. X . . . 
+. . . X . 
+. . P . . 
+. X . . . 
+
+Puntuacion: 6
+--------------------------
+Accion: 17
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+. . . . . 
+. X . . A 
+. . . X . 
+. . P . . 
+. X . . . 
+
+Puntuacion: 5
+--------------------------
+Accion: 18
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+. . . . A 
+. X . . . 
+. . . X . 
+. . P . . 
+. X . . . 
+
+Puntuacion: 4
+--------------------------
+Accion: 19
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+. . . . . 
+. X . . A 
+. . . X . 
+. . P . . 
+. X . . . 
+
+Puntuacion: 3
+--------------------------
+Accion: 20
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+. . . . A 
+. X . . . 
+. . . X . 
+. . P . . 
+. X . . . 
+
+Puntuacion: 2
+--------------------------
+Accion: 21
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+. . . . . 
+. X . . A 
+. . . X . 
+. . P . . 
+. X . . . 
+
+Puntuacion: 1
+--------------------------
+Accion: 22
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+. . . . A 
+. X . . . 
+. . . X . 
+. . P . . 
+. X . . . 
+
+Puntuacion: 0
+--------------------------
+Accion: 23
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+. . . . . 
+. X . . A 
+. . . X . 
+. . P . . 
+. X . . . 
+
+Puntuacion: -1
+--------------------------
+Accion: 24
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+. . . . A 
+. X . . . 
+. . . X . 
+. . P . . 
+. X . . . 
+
+Puntuacion: -2
+--------------------------
+Accion: 25
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+. . . . . 
+. X . . A 
+. . . X . 
+. . P . . 
+. X . . . 
+
+Puntuacion: -3
+--------------------------
+Accion: 26
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+. . . . A 
+. X . . . 
+. . . X . 
+. . P . . 
+. X . . . 
+
+Puntuacion: -4
+--------------------------
+Accion: 27
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+. . . . . 
+. X . . A 
+. . . X . 
+. . P . . 
+. X . . . 
+
+Puntuacion: -5
+--------------------------
+Accion: 28
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+. . . . A 
+. X . . . 
+. . . X . 
+. . P . . 
+. X . . . 
+
+Puntuacion: -6
+--------------------------
+Accion: 29
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+. . . . . 
+. X . . A 
+. . . X . 
+. . P . . 
+. X . . . 
+
+Puntuacion: -7
+--------------------------
+Accion: 30
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+. . . . A 
+. X . . . 
+. . . X . 
+. . P . . 
+. X . . . 
+
+Puntuacion: -8
+--------------------------
+Accion: 31
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+. . . . . 
+. X . . A 
+. . . X . 
+. . P . . 
+. X . . . 
+
+Puntuacion: -9
+--------------------------
+Accion: 32
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+. . . . A 
+. X . . . 
+. . . X . 
+. . P . . 
+. X . . . 
+
+Puntuacion: -10
+--------------------------
+Accion: 33
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+. . . . . 
+. X . . A 
+. . . X . 
+. . P . . 
+. X . . . 
+
+Puntuacion: -11
+--------------------------
+Accion: 34
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+. . . . A 
+. X . . . 
+. . . X . 
+. . P . . 
+. X . . . 
+
+Puntuacion: -12
+--------------------------
+Accion: 35
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+. . . . . 
+. X . . A 
+. . . X . 
+. . P . . 
+. X . . . 
+
+Puntuacion: -13
+--------------------------
+Accion: 36
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+. . . . A 
+. X . . . 
+. . . X . 
+. . P . . 
+. X . . . 
+
+Puntuacion: -14
+--------------------------
+Accion: 37
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+. . . . . 
+. X . . A 
+. . . X . 
+. . P . . 
+. X . . . 
+
+Puntuacion: -15
+--------------------------
+Accion: 38
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+. . . . A 
+. X . . . 
+. . . X . 
+. . P . . 
+. X . . . 
+
+Puntuacion: -16
+--------------------------
+Accion: 39
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+. . . . . 
+. X . . A 
+. . . X . 
+. . P . . 
+. X . . . 
+
+Puntuacion: -17
+--------------------------
+Accion: 40
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+. . . . A 
+. X . . . 
+. . . X . 
+. . P . . 
+. X . . . 
+
+Puntuacion: -18
+--------------------------
+Accion: 41
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+. . . . . 
+. X . . A 
+. . . X . 
+. . P . . 
+. X . . . 
+
+Puntuacion: -19
+--------------------------
+Accion: 42
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+. . . . A 
+. X . . . 
+. . . X . 
+. . P . . 
+. X . . . 
+
+Puntuacion: -20
+--------------------------
+Accion: 43
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+. . . . . 
+. X . . A 
+. . . X . 
+. . P . . 
+. X . . . 
+
+Puntuacion: -21
+--------------------------
+Accion: 44
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+. . . . A 
+. X . . . 
+. . . X . 
+. . P . . 
+. X . . . 
+
+Puntuacion: -22
+--------------------------
+Accion: 45
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+. . . . . 
+. X . . A 
+. . . X . 
+. . P . . 
+. X . . . 
+
+Puntuacion: -23
+--------------------------
+Accion: 46
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+. . . . A 
+. X . . . 
+. . . X . 
+. . P . . 
+. X . . . 
+
+Puntuacion: -24
+--------------------------
+Accion: 47
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+. . . . . 
+. X . . A 
+. . . X . 
+. . P . . 
+. X . . . 
+
+Puntuacion: -25
+--------------------------
+Accion: 48
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+. . . . A 
+. X . . . 
+. . . X . 
+. . P . . 
+. X . . . 
+
+Puntuacion: -26
+--------------------------
+Accion: 49
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+. . . . . 
+. X . . A 
+. . . X . 
+. . P . . 
+. X . . . 
+
+Puntuacion: -27
+--------------------------
+Accion: 50
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+. . . . A 
+. X . . . 
+. . . X . 
+. . P . . 
+. X . . . 
+
+Puntuacion: -28
+--------------------------
+
+RESULTADO DEL ESCENARIO
+Paquetes recogidos: 2
+Movimientos: 48
+Penalizaciones: 0
+Puntuacion final: -28
+Acciones: 50
+_____________________
+ESCENARIO 2
+____________________
+TABLERO INICIAL
+P . X . . 
+. . X . P 
+. . A . . 
+X . . . . 
+P . X . . 
+
+Accion: 1
+Percepcion: {'actual': '.', 'arriba': 'X', 'abajo': '.', 'izquierda': '.', 'derecha': '.'}
+Decision: DERECHA
+Tablero:
+P . X . . 
+. . X . P 
+. . . A . 
+X . . . . 
+P . X . . 
+
+Puntuacion: -1
+--------------------------
+Accion: 2
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': '.', 'derecha': '.'}
+Decision: ARRIBA
+Tablero:
+P . X . . 
+. . X A P 
+. . . . . 
+X . . . . 
+P . X . . 
+
+Puntuacion: -2
+--------------------------
+Accion: 3
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': 'X', 'derecha': 'P'}
+Decision: DERECHA
+Tablero:
+P . X . . 
+. . X . A 
+. . . . . 
+X . . . . 
+P . X . . 
+
+Puntuacion: -3
+--------------------------
+Accion: 4
+Percepcion: {'actual': 'P', 'arriba': '.', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: RECOGER
+Tablero:
+P . X . . 
+. . X . A 
+. . . . . 
+X . . . . 
+P . X . . 
+
+Puntuacion: 7
+--------------------------
+Accion: 5
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+P . X . A 
+. . X . . 
+. . . . . 
+X . . . . 
+P . X . . 
+
+Puntuacion: 6
+--------------------------
+Accion: 6
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+P . X . . 
+. . X . A 
+. . . . . 
+X . . . . 
+P . X . . 
+
+Puntuacion: 5
+--------------------------
+Accion: 7
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+P . X . A 
+. . X . . 
+. . . . . 
+X . . . . 
+P . X . . 
+
+Puntuacion: 4
+--------------------------
+Accion: 8
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+P . X . . 
+. . X . A 
+. . . . . 
+X . . . . 
+P . X . . 
+
+Puntuacion: 3
+--------------------------
+Accion: 9
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+P . X . A 
+. . X . . 
+. . . . . 
+X . . . . 
+P . X . . 
+
+Puntuacion: 2
+--------------------------
+Accion: 10
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+P . X . . 
+. . X . A 
+. . . . . 
+X . . . . 
+P . X . . 
+
+Puntuacion: 1
+--------------------------
+Accion: 11
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+P . X . A 
+. . X . . 
+. . . . . 
+X . . . . 
+P . X . . 
+
+Puntuacion: 0
+--------------------------
+Accion: 12
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+P . X . . 
+. . X . A 
+. . . . . 
+X . . . . 
+P . X . . 
+
+Puntuacion: -1
+--------------------------
+Accion: 13
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+P . X . A 
+. . X . . 
+. . . . . 
+X . . . . 
+P . X . . 
+
+Puntuacion: -2
+--------------------------
+Accion: 14
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+P . X . . 
+. . X . A 
+. . . . . 
+X . . . . 
+P . X . . 
+
+Puntuacion: -3
+--------------------------
+Accion: 15
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+P . X . A 
+. . X . . 
+. . . . . 
+X . . . . 
+P . X . . 
+
+Puntuacion: -4
+--------------------------
+Accion: 16
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+P . X . . 
+. . X . A 
+. . . . . 
+X . . . . 
+P . X . . 
+
+Puntuacion: -5
+--------------------------
+Accion: 17
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+P . X . A 
+. . X . . 
+. . . . . 
+X . . . . 
+P . X . . 
+
+Puntuacion: -6
+--------------------------
+Accion: 18
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+P . X . . 
+. . X . A 
+. . . . . 
+X . . . . 
+P . X . . 
+
+Puntuacion: -7
+--------------------------
+Accion: 19
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+P . X . A 
+. . X . . 
+. . . . . 
+X . . . . 
+P . X . . 
+
+Puntuacion: -8
+--------------------------
+Accion: 20
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+P . X . . 
+. . X . A 
+. . . . . 
+X . . . . 
+P . X . . 
+
+Puntuacion: -9
+--------------------------
+Accion: 21
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+P . X . A 
+. . X . . 
+. . . . . 
+X . . . . 
+P . X . . 
+
+Puntuacion: -10
+--------------------------
+Accion: 22
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+P . X . . 
+. . X . A 
+. . . . . 
+X . . . . 
+P . X . . 
+
+Puntuacion: -11
+--------------------------
+Accion: 23
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+P . X . A 
+. . X . . 
+. . . . . 
+X . . . . 
+P . X . . 
+
+Puntuacion: -12
+--------------------------
+Accion: 24
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+P . X . . 
+. . X . A 
+. . . . . 
+X . . . . 
+P . X . . 
+
+Puntuacion: -13
+--------------------------
+Accion: 25
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+P . X . A 
+. . X . . 
+. . . . . 
+X . . . . 
+P . X . . 
+
+Puntuacion: -14
+--------------------------
+Accion: 26
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+P . X . . 
+. . X . A 
+. . . . . 
+X . . . . 
+P . X . . 
+
+Puntuacion: -15
+--------------------------
+Accion: 27
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+P . X . A 
+. . X . . 
+. . . . . 
+X . . . . 
+P . X . . 
+
+Puntuacion: -16
+--------------------------
+Accion: 28
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+P . X . . 
+. . X . A 
+. . . . . 
+X . . . . 
+P . X . . 
+
+Puntuacion: -17
+--------------------------
+Accion: 29
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+P . X . A 
+. . X . . 
+. . . . . 
+X . . . . 
+P . X . . 
+
+Puntuacion: -18
+--------------------------
+Accion: 30
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+P . X . . 
+. . X . A 
+. . . . . 
+X . . . . 
+P . X . . 
+
+Puntuacion: -19
+--------------------------
+Accion: 31
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+P . X . A 
+. . X . . 
+. . . . . 
+X . . . . 
+P . X . . 
+
+Puntuacion: -20
+--------------------------
+Accion: 32
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+P . X . . 
+. . X . A 
+. . . . . 
+X . . . . 
+P . X . . 
+
+Puntuacion: -21
+--------------------------
+Accion: 33
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+P . X . A 
+. . X . . 
+. . . . . 
+X . . . . 
+P . X . . 
+
+Puntuacion: -22
+--------------------------
+Accion: 34
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+P . X . . 
+. . X . A 
+. . . . . 
+X . . . . 
+P . X . . 
+
+Puntuacion: -23
+--------------------------
+Accion: 35
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+P . X . A 
+. . X . . 
+. . . . . 
+X . . . . 
+P . X . . 
+
+Puntuacion: -24
+--------------------------
+Accion: 36
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+P . X . . 
+. . X . A 
+. . . . . 
+X . . . . 
+P . X . . 
+
+Puntuacion: -25
+--------------------------
+Accion: 37
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+P . X . A 
+. . X . . 
+. . . . . 
+X . . . . 
+P . X . . 
+
+Puntuacion: -26
+--------------------------
+Accion: 38
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+P . X . . 
+. . X . A 
+. . . . . 
+X . . . . 
+P . X . . 
+
+Puntuacion: -27
+--------------------------
+Accion: 39
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+P . X . A 
+. . X . . 
+. . . . . 
+X . . . . 
+P . X . . 
+
+Puntuacion: -28
+--------------------------
+Accion: 40
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+P . X . . 
+. . X . A 
+. . . . . 
+X . . . . 
+P . X . . 
+
+Puntuacion: -29
+--------------------------
+Accion: 41
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+P . X . A 
+. . X . . 
+. . . . . 
+X . . . . 
+P . X . . 
+
+Puntuacion: -30
+--------------------------
+Accion: 42
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+P . X . . 
+. . X . A 
+. . . . . 
+X . . . . 
+P . X . . 
+
+Puntuacion: -31
+--------------------------
+Accion: 43
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+P . X . A 
+. . X . . 
+. . . . . 
+X . . . . 
+P . X . . 
+
+Puntuacion: -32
+--------------------------
+Accion: 44
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+P . X . . 
+. . X . A 
+. . . . . 
+X . . . . 
+P . X . . 
+
+Puntuacion: -33
+--------------------------
+Accion: 45
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+P . X . A 
+. . X . . 
+. . . . . 
+X . . . . 
+P . X . . 
+
+Puntuacion: -34
+--------------------------
+Accion: 46
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+P . X . . 
+. . X . A 
+. . . . . 
+X . . . . 
+P . X . . 
+
+Puntuacion: -35
+--------------------------
+Accion: 47
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+P . X . A 
+. . X . . 
+. . . . . 
+X . . . . 
+P . X . . 
+
+Puntuacion: -36
+--------------------------
+Accion: 48
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+P . X . . 
+. . X . A 
+. . . . . 
+X . . . . 
+P . X . . 
+
+Puntuacion: -37
+--------------------------
+Accion: 49
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+P . X . A 
+. . X . . 
+. . . . . 
+X . . . . 
+P . X . . 
+
+Puntuacion: -38
+--------------------------
+Accion: 50
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+P . X . . 
+. . X . A 
+. . . . . 
+X . . . . 
+P . X . . 
+
+Puntuacion: -39
+--------------------------
+
+RESULTADO DEL ESCENARIO
+Paquetes recogidos: 1
+Movimientos: 49
+Penalizaciones: 0
+Puntuacion final: -39
+Acciones: 50
+____________________=
+ESCENARIO 3
+____________________
+TABLERO INICIAL
+. X . . P 
+. X . X . 
+. . A . . 
+P X . X . 
+. . . . P 
+
+Accion: 1
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': '.', 'derecha': '.'}
+Decision: ARRIBA
+Tablero:
+. X . . P 
+. X A X . 
+. . . . . 
+P X . X . 
+. . . . P 
+
+Puntuacion: -1
+--------------------------
+Accion: 2
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': 'X', 'derecha': 'X'}
+Decision: ARRIBA
+Tablero:
+. X A . P 
+. X . X . 
+. . . . . 
+P X . X . 
+. . . . P 
+
+Puntuacion: -2
+--------------------------
+Accion: 3
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': 'X', 'derecha': '.'}
+Decision: DERECHA
+Tablero:
+. X . A P 
+. X . X . 
+. . . . . 
+P X . X . 
+. . . . P 
+
+Puntuacion: -3
+--------------------------
+Accion: 4
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': 'X', 'izquierda': '.', 'derecha': 'P'}
+Decision: DERECHA
+Tablero:
+. X . . A 
+. X . X . 
+. . . . . 
+P X . X . 
+. . . . P 
+
+Puntuacion: -4
+--------------------------
+Accion: 5
+Percepcion: {'actual': 'P', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: RECOGER
+Tablero:
+. X . . A 
+. X . X . 
+. . . . . 
+P X . X . 
+. . . . P 
+
+Puntuacion: 6
+--------------------------
+Accion: 6
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+. X . . . 
+. X . X A 
+. . . . . 
+P X . X . 
+. . . . P 
+
+Puntuacion: 5
+--------------------------
+Accion: 7
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': 'X', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+. X . . A 
+. X . X . 
+. . . . . 
+P X . X . 
+. . . . P 
+
+Puntuacion: 4
+--------------------------
+Accion: 8
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+. X . . . 
+. X . X A 
+. . . . . 
+P X . X . 
+. . . . P 
+
+Puntuacion: 3
+--------------------------
+Accion: 9
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': 'X', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+. X . . A 
+. X . X . 
+. . . . . 
+P X . X . 
+. . . . P 
+
+Puntuacion: 2
+--------------------------
+Accion: 10
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+. X . . . 
+. X . X A 
+. . . . . 
+P X . X . 
+. . . . P 
+
+Puntuacion: 1
+--------------------------
+Accion: 11
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': 'X', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+. X . . A 
+. X . X . 
+. . . . . 
+P X . X . 
+. . . . P 
+
+Puntuacion: 0
+--------------------------
+Accion: 12
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+. X . . . 
+. X . X A 
+. . . . . 
+P X . X . 
+. . . . P 
+
+Puntuacion: -1
+--------------------------
+Accion: 13
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': 'X', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+. X . . A 
+. X . X . 
+. . . . . 
+P X . X . 
+. . . . P 
+
+Puntuacion: -2
+--------------------------
+Accion: 14
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+. X . . . 
+. X . X A 
+. . . . . 
+P X . X . 
+. . . . P 
+
+Puntuacion: -3
+--------------------------
+Accion: 15
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': 'X', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+. X . . A 
+. X . X . 
+. . . . . 
+P X . X . 
+. . . . P 
+
+Puntuacion: -4
+--------------------------
+Accion: 16
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+. X . . . 
+. X . X A 
+. . . . . 
+P X . X . 
+. . . . P 
+
+Puntuacion: -5
+--------------------------
+Accion: 17
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': 'X', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+. X . . A 
+. X . X . 
+. . . . . 
+P X . X . 
+. . . . P 
+
+Puntuacion: -6
+--------------------------
+Accion: 18
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+. X . . . 
+. X . X A 
+. . . . . 
+P X . X . 
+. . . . P 
+
+Puntuacion: -7
+--------------------------
+Accion: 19
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': 'X', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+. X . . A 
+. X . X . 
+. . . . . 
+P X . X . 
+. . . . P 
+
+Puntuacion: -8
+--------------------------
+Accion: 20
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+. X . . . 
+. X . X A 
+. . . . . 
+P X . X . 
+. . . . P 
+
+Puntuacion: -9
+--------------------------
+Accion: 21
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': 'X', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+. X . . A 
+. X . X . 
+. . . . . 
+P X . X . 
+. . . . P 
+
+Puntuacion: -10
+--------------------------
+Accion: 22
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+. X . . . 
+. X . X A 
+. . . . . 
+P X . X . 
+. . . . P 
+
+Puntuacion: -11
+--------------------------
+Accion: 23
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': 'X', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+. X . . A 
+. X . X . 
+. . . . . 
+P X . X . 
+. . . . P 
+
+Puntuacion: -12
+--------------------------
+Accion: 24
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+. X . . . 
+. X . X A 
+. . . . . 
+P X . X . 
+. . . . P 
+
+Puntuacion: -13
+--------------------------
+Accion: 25
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': 'X', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+. X . . A 
+. X . X . 
+. . . . . 
+P X . X . 
+. . . . P 
+
+Puntuacion: -14
+--------------------------
+Accion: 26
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+. X . . . 
+. X . X A 
+. . . . . 
+P X . X . 
+. . . . P 
+
+Puntuacion: -15
+--------------------------
+Accion: 27
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': 'X', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+. X . . A 
+. X . X . 
+. . . . . 
+P X . X . 
+. . . . P 
+
+Puntuacion: -16
+--------------------------
+Accion: 28
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+. X . . . 
+. X . X A 
+. . . . . 
+P X . X . 
+. . . . P 
+
+Puntuacion: -17
+--------------------------
+Accion: 29
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': 'X', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+. X . . A 
+. X . X . 
+. . . . . 
+P X . X . 
+. . . . P 
+
+Puntuacion: -18
+--------------------------
+Accion: 30
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+. X . . . 
+. X . X A 
+. . . . . 
+P X . X . 
+. . . . P 
+
+Puntuacion: -19
+--------------------------
+Accion: 31
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': 'X', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+. X . . A 
+. X . X . 
+. . . . . 
+P X . X . 
+. . . . P 
+
+Puntuacion: -20
+--------------------------
+Accion: 32
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+. X . . . 
+. X . X A 
+. . . . . 
+P X . X . 
+. . . . P 
+
+Puntuacion: -21
+--------------------------
+Accion: 33
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': 'X', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+. X . . A 
+. X . X . 
+. . . . . 
+P X . X . 
+. . . . P 
+
+Puntuacion: -22
+--------------------------
+Accion: 34
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+. X . . . 
+. X . X A 
+. . . . . 
+P X . X . 
+. . . . P 
+
+Puntuacion: -23
+--------------------------
+Accion: 35
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': 'X', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+. X . . A 
+. X . X . 
+. . . . . 
+P X . X . 
+. . . . P 
+
+Puntuacion: -24
+--------------------------
+Accion: 36
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+. X . . . 
+. X . X A 
+. . . . . 
+P X . X . 
+. . . . P 
+
+Puntuacion: -25
+--------------------------
+Accion: 37
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': 'X', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+. X . . A 
+. X . X . 
+. . . . . 
+P X . X . 
+. . . . P 
+
+Puntuacion: -26
+--------------------------
+Accion: 38
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+. X . . . 
+. X . X A 
+. . . . . 
+P X . X . 
+. . . . P 
+
+Puntuacion: -27
+--------------------------
+Accion: 39
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': 'X', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+. X . . A 
+. X . X . 
+. . . . . 
+P X . X . 
+. . . . P 
+
+Puntuacion: -28
+--------------------------
+Accion: 40
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+. X . . . 
+. X . X A 
+. . . . . 
+P X . X . 
+. . . . P 
+
+Puntuacion: -29
+--------------------------
+Accion: 41
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': 'X', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+. X . . A 
+. X . X . 
+. . . . . 
+P X . X . 
+. . . . P 
+
+Puntuacion: -30
+--------------------------
+Accion: 42
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+. X . . . 
+. X . X A 
+. . . . . 
+P X . X . 
+. . . . P 
+
+Puntuacion: -31
+--------------------------
+Accion: 43
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': 'X', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+. X . . A 
+. X . X . 
+. . . . . 
+P X . X . 
+. . . . P 
+
+Puntuacion: -32
+--------------------------
+Accion: 44
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+. X . . . 
+. X . X A 
+. . . . . 
+P X . X . 
+. . . . P 
+
+Puntuacion: -33
+--------------------------
+Accion: 45
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': 'X', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+. X . . A 
+. X . X . 
+. . . . . 
+P X . X . 
+. . . . P 
+
+Puntuacion: -34
+--------------------------
+Accion: 46
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+. X . . . 
+. X . X A 
+. . . . . 
+P X . X . 
+. . . . P 
+
+Puntuacion: -35
+--------------------------
+Accion: 47
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': 'X', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+. X . . A 
+. X . X . 
+. . . . . 
+P X . X . 
+. . . . P 
+
+Puntuacion: -36
+--------------------------
+Accion: 48
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+. X . . . 
+. X . X A 
+. . . . . 
+P X . X . 
+. . . . P 
+
+Puntuacion: -37
+--------------------------
+Accion: 49
+Percepcion: {'actual': '.', 'arriba': '.', 'abajo': '.', 'izquierda': 'X', 'derecha': 'FUERA'}
+Decision: ARRIBA
+Tablero:
+. X . . A 
+. X . X . 
+. . . . . 
+P X . X . 
+. . . . P 
+
+Puntuacion: -38
+--------------------------
+Accion: 50
+Percepcion: {'actual': '.', 'arriba': 'FUERA', 'abajo': '.', 'izquierda': '.', 'derecha': 'FUERA'}
+Decision: ABAJO
+Tablero:
+. X . . . 
+. X . X A 
+. . . . . 
+P X . X . 
+. . . . P 
+
+Puntuacion: -39
+--------------------------
+
+RESULTADO DEL ESCENARIO
+Paquetes recogidos: 1
+Movimientos: 49
+Penalizaciones: 0
+Puntuacion final: -39
+Acciones: 50
+
+
+** Process exited - Return Code: 0 **
