@@ -19,7 +19,9 @@ def percibir(entorno, posicion):
     columna = posicion[1]
 
     percepcion = {}
+    percepcion["posicion"] = [fila, columna]
     percepcion["actual"] = entorno[fila][columna]
+    
     if fila > 0:
         percepcion["arriba"] = entorno[fila - 1][columna]
     else:
@@ -39,35 +41,23 @@ def percibir(entorno, posicion):
 
     return percepcion
 
-def decidir(percepcion):
-    if percepcion["actual"] == "P":
-        return "RECOGER"
+def decidir(percepcion, visitas):
+  posicion = percepcion["posicion"]
+opciones = []
+if percepcion["arriba"] == ".":
+    opciones.append((visitas.get((posicion[0] - 1, posicion[1]), 0), 0, "ARRIBA"))
 
-    if percepcion["arriba"] == "P":
-        return "ARRIBA"
+if percepcion["derecha"] == ".":
+    opciones.append((visitas.get((posicion[0], posicion[1] + 1), 0), 1, "DERECHA"))
 
-    if percepcion["derecha"] == "P":
-        return "DERECHA"
-    if percepcion["abajo"] == "P":
-        return "ABAJO"
-    if percepcion["izquierda"] == "P":
-        return "IZQUIERDA"
+if percepcion["abajo"] == ".":
+    opciones.append((visitas.get((posicion[0] + 1, posicion[1]), 0), 2, "ABAJO"))
 
+if percepcion["izquierda"] == ".":
+    opciones.append((visitas.get((posicion[0], posicion[1] - 1), 0), 3, "IZQUIERDA"))
 
-    if percepcion["arriba"] == ".":
-        return "ARRIBA"
-
-    if percepcion["derecha"] == ".":
-        return "DERECHA"
-
-    if percepcion["abajo"] == ".":
-        return "ABAJO"
-
-    if percepcion["izquierda"] == ".":
-        return "IZQUIERDA"
-
-    return "NADA"
-
+   if len(opciones) > 0:
+    return min(opciones)[2]
 def actuar(accion, posicion, entorno):
 
     fila = posicion[0]
@@ -130,7 +120,7 @@ def ejecutar(escenario, posicion):
     penalizaciones = 0
     paquetes_recogidos = 0
     acciones = 0
-
+visitas = {tuple(posicion): 1} #diccionario de visitas 
     print("TABLERO INICIAL")
     mostrar_entorno(entorno, posicion)
 
@@ -142,7 +132,7 @@ def ejecutar(escenario, posicion):
 
         print("Percepcion:", percepcion)
 
-        accion = decidir(percepcion)
+        accion = decidir(percepcion, visitas)
 
         print("Decision:", accion)
 
@@ -155,6 +145,7 @@ def ejecutar(escenario, posicion):
         if accion == "RECOGER":
 
             posicion = nueva_posicion
+            visitas[tuple(posicion)] = visitas.get(tuple(posicion), 0) + 1
             puntuacion = actualizar_rendimiento(
                 accion, puntuacion
             )
@@ -194,7 +185,7 @@ def ejecutar(escenario, posicion):
 
         print("Tablero:")
         mostrar_entorno(entorno, posicion)
-
+        print("Posicion:", posicion)
         print("Puntuacion:", puntuacion)
         print("--------------------------")
 
